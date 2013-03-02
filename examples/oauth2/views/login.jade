@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    span#signinButton
+      span.g-signin(
+        data-callback="signinCallback",
+        data-clientid="810422181166.apps.googleusercontent.com",
+        data-cookiepolicy="single_host_origin",
+        data-requestvisibleactions="http://schemas.google.com/AddActivity",
+        data-scope="https://www.googleapis.com/auth/plus.login")

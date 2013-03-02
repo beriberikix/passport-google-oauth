@@ -55,7 +55,7 @@ var app = express();
 // configure Express
 app.configure(function() {
   app.set('views', __dirname + '/views');
-  app.set('view engine', 'ejs');
+  app.set('view engine', 'jade');
   app.use(express.logger());
   app.use(express.cookieParser());
   app.use(express.bodyParser());
